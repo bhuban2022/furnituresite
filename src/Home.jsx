@@ -293,11 +293,11 @@ const Home = () => {
             <img src={fulimage}  />
           </div>  */}
            
-       
+     
           
          
         <hr />
-        <div className="footer-sect">
+        <div className="footer-sect container">
           <div>
             <div className="footer-title">Funiro.</div>
             <div className="footer-desc">

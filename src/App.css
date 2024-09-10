@@ -290,3 +290,34 @@ height: 716.83px;
 
 
 }
+@media only screen and (max-width: 500px) {
+
+  .box-rgt{
+    width:95vw;
+    height:auto;
+  }
+  .footer-sect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+.box-wrap-all{
+  width: 95vw;
+}
+.right-rs{
+  text-align: center;
+}
+.align-wrap{
+  flex-wrap: wrap;
+  width: 95vw;
+  align-items: center;
+  gap:5px;
+}
+.newarr-one{
+  width:auto;
+}
+  
+}
