@@ -1,81 +1,64 @@
 import React from "react";
-
-import backg from "./images/wallback.svg";
-import din from "./images/dinin.svg";
-import bed from "./images/bedrom.svg";
-import liv from "./images/living.svg";
+import ban from "./images/banner.svg";
+import dot from "./images/dot.svg";
+import view from "./images/view.svg";
+import filter from "./images/filter.svg";
 import one from "./images/1.svg";
 import two from "./images/2.svg";
 import three from "./images/3.svg";
 import four from "./images/4.svg";
 import five from "./images/5.svg";
 import six from "./images/6.svg";
-import girl from "./images/girls.png";
-import girlone from "./images/inner-rgt.svg";
-// import rone from "./images/r1.svg";
-// import rtwo from "./images/r2.svg";
-// import rthree from "./images/r3.svg";
-// import rfour from "./images/r4.svg";
-// import rfive from "./images/r5.svg";
-// import rsix from "./images/r6.svg";
-// import rsev from "./images/r7.svg";
-// import rten from "./images/r10.svg";
-import fulimage from "./images/fullimage.svg";
+import high from "./images/hq.svg"
+import gua from "./images/guarantee.svg"
+import sup from "./images/support.svg"
+import sip from "./images/shipping.svg"
 
-const Home = () => {
+const Homeone = () => {
   return (
-    
-      <div className="img-setor container-fluid">
-        {/* <img src={backg} width="100%" alt="wall background" /> */}
-        <div className=" box-wrap-all">
-          <div className="box-rgt">
-           
-              <div className="newarr">New Arrival</div>
-              <div className="newarr-one">Discover Our New Collection</div>
-              <div className="hero-para-section">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                tellus, luctus nec ullamcorper mattis.
-              </div>
+    <div className="">
+      <div className="backgrou">
+        <div className="titles">Shop</div>
+        <div className="d-flex gap-3">
+          <div>Home</div>
+          <div>
+            <i class="fa-solid fa-greater-than"></i>
+          </div>
+          <div>Shop</div>
+        </div>
+      </div>
 
-              <div className="box-btm">Buy Now</div>
-            </div>
+      <div className="foot ">
+
+        <div className="d-flex foot-one">
+      <div>
+          <img src={filter} />
+        </div>
+
+        <div>Filter</div>
+
+        <div>
+          <img src={dot} />
+        </div>
+        <div>
+          <img src={view} />
+        </div>
+        <div className="border-rgt"></div>    
+        <div>Showing 1-16 of 32 results</div>
+        </div>
+
+        <div className="d-flex gap-2 newclass">
          
-      
-      </div>
-
-      <div className="brows container">
-        <p className="browse">Browse The Range</p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint,
-        voluptatem.
-      </div>
-      <div className="phot container">
-        <div>
-          <div>
-            <img src={din} alt="dining" width="381px" height="480px" />
-          </div>
-
-          <div className="txt-dsn">Dining</div>
+       
+         <div className="sho">Show</div>
+         <div className="sixt">16</div>
+         <div>Sort By</div>
+         <div className="def">Default</div>
+       
+     </div>
         </div>
-
-        <div>
-          <div>
-            <img src={bed} alt="bed" width="381px" height="480px" />
-          </div>
-
-          <div className="txt-dsn">Living</div>
-        </div>
-
-        <div>
-          <div>
-            <img src={liv} alt="living" width="381px" height="480px" />
-          </div>
-
-          <div className="txt-dsn">Bedroom</div>
-        </div>
-        <div></div>
-        <div></div>
-      </div>
-      <div className="products-wrap container">
+       
+        <div className="products-wrap container mt-5">
         <div className="products">
           <img src={two} />
 
@@ -209,89 +192,87 @@ const Home = () => {
         </div>
       </div>
 
-      {/* <div className="products-wrap">
-          <div className="products">
-            <img src={one} />
 
-            <div className="btm-txt">
-              <div className="headin">Syltherine</div>
-              <div>Stylish cafe chair</div>
-              <div>
-                Rp 2.500.000{" "}
-                <span>
-                  <strike>Rp 3.500.000</strike>
-                </span>
-              </div>
-            </div>
+   
 
-            <div className="circle">-30%</div>
-          </div>
-          <div className="products">
-            <img src={six} />
+  
+     
+      <div className="wrap-foot-sect">
+     <div className="foot-sect">
+        <div>
+        <img src={high} height="60px" width="60px"/>
 
-            <div className="btm-txt">
-              <div className="headin">Syltherine</div>
-              <div>Stylish cafe chair</div>
-              <div>Rp 2.500.000</div>
-            </div>
+        </div>
+     <div>
+      <div className="heading">
+        High Quality
 
-            <div className="circle-one">New</div>
-          </div>
-          <div className="products">
-            <img src={one} />
+      </div>
+      <div className="desc">
+        created from top materials
+      </div>
+     </div>
+      
+      
+      </div>
+      <div className="foot-sect">
+        <div>
+        <img src={gua} height="60px" width="60px"/>
 
-            <div className="btm-txt">
-              <div className="headin">Syltherine</div>
-              <div>Stylish cafe chair</div>
-              <div>
-                Rp 2.500.000{" "}
-                <span>
-                  <strike>Rp 3.500.000</strike>
-                </span>
-              </div>
-            </div>
+        </div>
+     <div>
+      <div className="heading">
+      Warranty Protection
 
-            <div className="circle">-50%</div>
-          </div>
-          <div className="products">
-            <img src={one} />
+      </div>
+      <div className="desc">
+        created from top materials
+      </div>
+     </div>
+      
+      
+      </div>
+      <div className="foot-sect">
 
-            <div className="btm-txt">
-              <div className="headin">Syltherine</div>
-              <div>Stylish cafe chair</div>
-              <div>Rp 2.500.000</div>
-            </div>
+        <div>
+        <img src={sip} height="60px" width="60px"/>
 
-            <div className="circle-one">New</div>
-          </div>
-        </div> */}
-      <div className="show-btn-align">
-        <div className="show-btn">Show More</div>
+        </div>
+     <div>
+      <div className="heading">
+      Free Shipping
+
+      </div>
+      <div className="desc">
+        created from top materials
+      </div>
+     </div>
+      
+      
       </div>
 
-      <div className="align-wrap container">
-        <div className="rooms-wrapper">
-          <div className="rooms">
-            <p className="fify">50+ Beautiful rooms inspiration</p>
-            <p className="fif">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex,
-              praesentium. Modi aut sed fugiat molestias!
-            </p>
-            <div className="rooms-btn">Explore more</div>
-          </div>
+       <div className="foot-sect">
+        
+        <div>
+        <img src={sup} height="60px" width="60px"/>
+
         </div>
-        <div className="slider-sect">
-          <img src={girl} height="200px" width="200px" />
-          <img src={girlone} height="200px" width="200px" />
-        </div>
+     <div>
+      <div className="heading">
+      24 / 7 Support
+
       </div>
+      <div className="desc">
+        created from top materials
+      </div>
+     </div>
+      
+      
+      </div>
+      
+</div>
 
-      {/* <div className=" sect-bottom-one container-fluid">
-            <img src={fulimage}  />
-          </div>  */}
-
-      <hr />
-      <div className="footer-sect container">
+<div className="footer-sect container">
         <div>
           <div className="footer-title">Funiro.</div>
           <div className="footer-desc">
@@ -319,11 +300,13 @@ const Home = () => {
             <li>Subscribe</li>
           </div>
         </div>
-      </div>
+      </div> 
       <hr />
-      <div className="right-rs">2023 furino. All rights reverved</div>
-    </div>
+      <div className="right-rs container">2023 furino. All rights reverved</div>
+        </div>
+        
+ 
   );
 };
 
-export default Home;
+export default Homeone;
