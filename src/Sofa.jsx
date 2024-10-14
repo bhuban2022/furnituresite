@@ -142,7 +142,7 @@ const Sofa = () => {
           while the guitar-influenced leather strap enables easy and stylish
           travel.
         </div>
-        <div className="d-flex gap-2">
+        <div className="d-flex gap-2 sofa-algns">
           <div>
             <img src={sofaleft} />
           </div>

@@ -14,6 +14,7 @@ import four from "./images/4.svg";
 import five from "./images/5.svg";
 import six from "./images/6.svg";
 import wood from "./images/wood.svg";
+import keys from "./images/key.svg"
 
 const SofaOne = () => {
   return (
@@ -86,13 +87,12 @@ const SofaOne = () => {
 
           <hr />
           <div className="warp">
-          <div className="d-flex gap-4">
-            <div>SKU</div>
-            <div>:</div>
-            <div>SS001</div>
-          </div>
+            <div className="d-flex gap-4">
+              <div>SKU</div>
+              <div>:</div>
+              <div>SS001</div>
+            </div>
 
-         
             <div className="d-flex gap-4 ">
               <div>Category</div>
               <div>:</div>
@@ -118,7 +118,6 @@ const SofaOne = () => {
             </div>
           </div>
         </div>
-        
       </div>
 
       <hr />
@@ -214,7 +213,7 @@ const SofaOne = () => {
       </div>
 
       <div className="show-align">
-      <div className="show-btn">Show More</div>
+        <div className="show-btn">Show More</div>
       </div>
       <div className="footer-sect container">
         <div>
@@ -245,58 +244,54 @@ const SofaOne = () => {
           </div>
         </div>
       </div>
-      <div className="cart">
-<div className="d-flex gap-3">
-   <div>
-    <img src={wood} />
-</div> 
+      <div className="cart container mt-3">
 
-<div className="">
-<div>
-Asgaard sofa
-</div>
-<div>
-    1 * Rs. 250,000.00
-</div>
-</div>
-
-
-</div>
-
-<div className="d-flex gap-3">
-   <div>
-    <img src={bigsof} height="90px" width="111px" />
-</div> 
-
-<div className="">
-<div>
-Asgaard sofa
-</div>
-<div>
-    1 * Rs. 250,000.00
-</div>
-</div>
-
-</div>
-
-<div className="d-flex gap-5">
-
-  <div>
-    Subtotal
-</div> 
-
-<div  >
-Rs. 520,000.00
-</div>
-</div>
-
-
-<div>
-    
-</div>
-
-
+        <div className="d-flex">
+          
+          <div>
+          Shopping Cart
+          </div>
+          <div>
+            <img src={keys}/>
+          </div>
         </div>
+        <div className="d-flex gap-3">
+          <div>
+            <img src={wood} />
+          </div>
+
+          <div className="">
+            <div >Asgaard sofa</div>
+            <div >1 * Rs. 250,000.00</div>
+          </div>
+        </div>
+
+        <div className="d-flex gap-3">
+          <div>
+            <img src={bigsof} height="90px" width="111px" />
+          </div>
+
+          <div className="">
+            <div>Asgaard sofa</div>
+            <div className="number-desn">1 * Rs. 250,000.00</div>
+          </div>
+        </div>
+
+        <div className="d-flex gap-5">
+          <div>Subtotal</div>
+
+          <div className="number-desn">Rs. 520,000.00</div>
+        </div>
+
+        <div></div>
+        <hr />
+
+        <div className="foot-edit">
+          <div className="carts">Cart</div>
+          <div className="carts-one"> CheckOut</div>
+          <div className="carts-two">Comparison</div>
+        </div>
+      </div>
     </div>
   );
 };
