@@ -13,6 +13,12 @@ import Cart from "./Cart";
 import CheckOut from "./CheckOut";
 import Contact from "./Contact";
 import Blog from "./Blog";
+import Blog1 from "./Blog1";
+
+import Checkthree from "./Checkthree";
+
+
+
 function App() {
   return (
     <div className="App">
@@ -27,6 +33,9 @@ function App() {
         <Route path="/chckout" element={<CheckOut/>}/>
         <Route path="/con" element={<Contact/>}/>
         <Route path="/blog" element={<Blog/>}/>
+        <Route path="/blog1" element={<Blog1/>}/>
+      
+        <Route path="/checkt" element={<Checkthree/>}/>
 
       </Routes>
 

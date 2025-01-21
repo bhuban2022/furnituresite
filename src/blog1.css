@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+  font-family: "Poppins", serif;
+}
+.nav-link{
+font-weight: 500;
+}
+.logoimage{
+  width: 50px;
+  height: 32px;
+}
+.navbar-brand{
+  font-weight: bold;
+  font-size: 32px;
+}
+.main-cart-container{
+  background-image: url("./Image/HeroImage.png");
+  height: 316px;
+  width: 100vw;
+  background-size: cover;
+}
+.inner-connent{
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.textfor{
+  font-size: 48px;
+  font-weight: 500;
+}
+.hero-logo{
+  width: 50px;
+  height: 40px;
+}
+.directio{
+  font-size: 16px;
+  font-weight: 500;
+}
+.left-blog-side{
+  width: 70%;
+}
+.blog-image{
+  width: 100%;
+}
+.blog-cover{
+  margin-top: 100px;
+}
+.blog-details{
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin-top: 10px;
+}
+.date{
+  color: #9F9F9F;
+  font-size: 16px;
+}
+.blog-title{
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+.detail-blog{
+  color: #9F9F9F;
+  font-size: 15px;
+}
+.inputfield{
+  border: 1px solid #9F9F9F;
+  border-radius: 8px;
+  height: 58px;
+  width: 311px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+  align-items: center;
+}
+.inputfield input{
+border: none;
+width: 90%;
+}
+.inputfield input:focus{
+  outline: none;
+}
+.categories{
+  width: 250px;
+}
+.category-cover{
+  display: flex;
+  justify-content: center;
+}
+.cate-title{
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 16px;
+}
+.detail-category{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  color: #9F9F9F;
+  font-size: 16px;
+  margin-top: 16px;
+}
+.subb{
+  width: 80px;
+  height: 80px;
+}
+.ttitle{
+  font-size: 14px;
+  color: #000;
+}
+.fordate{
+  color: #9F9F9F;
+  font-size: 14px;
+}
+.first{
+  width: 60px;
+  height: 60px;
+  background-color: #F9F1E7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.covercontainer{
+  background-color: #F9F1E7;
+  width: 100vw;
+  height: 270px;
+  margin-top: 100px;
+}

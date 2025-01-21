@@ -5,8 +5,8 @@ import gua from "./images/guarantee.svg";
 import sup from "./images/support.svg";
 import sip from "./images/shipping.svg";
 import arrdown from "./images/downarrow.svg";
-import point from "./images/point.svg"
-import elips from "./images/ellipse1.svg"
+import point from "./images/point.svg";
+import elips from "./images/ellipse1.svg";
 
 const CheckOut = () => {
   return (
@@ -24,117 +24,104 @@ const CheckOut = () => {
           <div>Check Out</div>
         </div>
       </div>
-<div className="d-flex gap-3">
-    <div className="billing-sect-wrapper container">
-        <div>Billing details</div>
-        <div className="  d-flex gap-3">
-          <div className="billing-sect">First Name</div>
-          <div className="billing-sect">Last Name</div>
-        </div>
-        <div className="billing-sect">Company Name (Optional)</div>
-
-        <div>Country / Region</div>
-        <div className="d-flex billing-sect-new">
-          <div>Sri Lanka</div>
-          <div>
-            <img src={arrdown} />
+      <div className="d-flex gap-3">
+        <div className="billing-sect-wrapper container">
+          <div className="bi-detail">Billing details</div>
+          <div className="  d-flex gap-3">
+            <div>
+            <label>First name</label>
+            <input type ="text" className="billing-sect"/>
+            </div>
+          
+            <div>
+            <label>First name</label>
+            <input type ="text" className="billing-sect"/>
+            </div>
+            {/* <div className="billing-sect">Last Name</div> */}
           </div>
-          <div></div>
+          <div className="billing-sect">Company Name (Optional)</div>
+
+          <div>Country / Region</div>
+          <div className="d-flex ">
+            <select className="billing-sect">Srilanka
+              pakistan
+            </select>
+        
+            
+            <div></div>
+          </div>
+
+
+          <input type="text" className="billing-sect" placeholder="Street Address"/>
+          <input type="text" className="billing-sect" placeholder="Province"/>
+
+          
+          <div className="d-flex billing-sect-new">
+          <input type="text" className="billing-sect" placeholder="Western Union"/>
+            {/* <div>
+              <img src={arrdown} />
+            </div> */}
+            <div></div>
+          </div>
+          <div className="billing-sect">Zip Code</div>
+          <div className="billing-sect">Phone</div>
+          <div className="billing-sect">Email</div>
+          <div className="billing-sect">Additional Information</div>
         </div>
 
-        <div className="billing-sect">Street Address</div>
-        <div className="billing-sect">Province</div>
-        <div className="d-flex billing-sect-new">
-          <div>Western Province</div>
-          <div>
-            <img src={arrdown} />
+        
+        <div className="order-wrap">
+          <div className="d-flex gap-3">
+            <div>Products</div>
+            <div>Sub Total</div>
           </div>
-          <div></div>
+
+          <div className="d-flex gap-3">
+            <div>Asgard Sofa</div>
+            <div>Rs. 250,000.00</div>
+          </div>
+
+          <div className="d-flex gap-3">
+            <div>Total</div>
+            <div>Rs. 250,000.00</div>
+          </div>
+          <hr />
+
+          <div className="d-flex gap-2">
+            <div>
+              <img src={point} />
+            </div>
+            <div>Direct Bank Transfer</div>
+          </div>
+
+          <div className="m-pay">
+            Make your payment directly into our bank account. Please use your
+            Order ID as the payment reference. Your order will not be shipped
+            until the funds have cleared in our account.
+          </div>
+
+          <div className="d-flex gap-3">
+            <div>
+              <img src={elips} />
+            </div>
+            <div>Direct Bank Transfer</div>
+          </div>
+
+          <div className="d-flex gap-3">
+            <div>
+              <img src={elips} />
+            </div>
+            <div>Cash On Delivery</div>
+          </div>
+
+          <div className="m-pay">
+            Your personal data will be used to support your experience
+            throughout this website, to manage access to your account, and for
+            other purposes described in our <b>privacy policy.</b>
+          </div>
+          <div className="place">Place order</div>
         </div>
-        <div className="billing-sect">Zip Code</div>
-      <div className="billing-sect">Phone</div>
-      <div className="billing-sect">Email</div>
-      <div className="billing-sect">Additional Information</div>
       </div>
-    <div className="order-wrap">
-<div className="d-flex gap-3">
-  <div>
-
-  Products
-  </div>
-  <div>
-    Sub Total
-  </div>
-</div>
-
-
-<div className="d-flex gap-3">
-  <div>
-
- Asgard Sofa
-  </div>
-  <div>
-  Rs. 250,000.00
-  </div>
-</div>
-
-<div className="d-flex gap-3">
-  <div>
-
- Total
-  </div>
-  <div>
-  Rs. 250,000.00
-  </div>
-</div>
-<hr/>
-
-<div className="d-flex gap-2">
-  <div>
-  <img src={point}/>
-</div>
-<div>
-Direct Bank Transfer
-</div>
-
-</div>
-
-
-<div className="m-pay">
-Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.
-</div>
-
-<div className="d-flex gap-3" >
-<div>
-<img src={elips}/>
-</div>
-<div>
-Direct Bank Transfer
-</div>
-</div>
-
-
-<div className="d-flex gap-3" >
-<div>
-<img src={elips}/>
-</div>
-<div>
-Cash On Delivery
-</div>
-</div>
-
-<div className="m-pay">
-Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <b>privacy policy.</b> 
-</div>
-<div className="place">
-
-Place order
-</div>
-
-</div>
-</div>
-
-    
 
       <div className="wrap-foot-sect">
         <div className="foot-sect">

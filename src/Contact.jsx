@@ -78,17 +78,18 @@ const Contact = () => {
 
 
       <label>Your name</label>
-      <div className="billing-sect">abc</div>
-
+     
+<input type="text" placeholder="abc" className="billing-sect"/>
 
       <label>Email Address</label>
-      <div className="billing-sect">abc@gmail.com</div>
+      
+      <input type="text" placeholder="abc@gmail.com" className="billing-sect"/>
 
       <label>Subject</label>
-      <div className="billing-sect">This is an optional</div>
-
+      
+      <input type="text" placeholder="This is an optional" className="billing-sect"/>
       <label>Message</label>
-      <div className="billing-sect-area">This is an optional</div>
+      <input type="text" placeholder="This is an optional" className="billing-sect-area"/>
 
       <div className="submit-btn">Submit</div>
 

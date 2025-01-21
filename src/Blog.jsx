@@ -34,7 +34,7 @@ const Blog = () => {
 
 
 
-<div className='d-flex gap-3 container'>
+<div className='d-flex gap-3 container newedited'>
   <div className='lap-pic'>
   <img src={lapto}/>
 </div>
@@ -48,10 +48,48 @@ const Blog = () => {
 </div>
 </div>
 
-<div>
+<div className='categ'>
   Categories
 </div>
-<div className='d-flex gap-5'>
+<div className='d-flex gap-5 '>
+
+  <div classname="">
+Crafts
+  </div>
+  <div>
+    2
+  </div>
+</div>
+
+<div className='d-flex gap-5 '>
+
+  <div classname="">
+Crafts
+  </div>
+  <div>
+    2
+  </div>
+</div>
+<div className='d-flex gap-5 '>
+
+  <div classname="">
+Crafts
+  </div>
+  <div>
+    2
+  </div>
+</div>
+
+<div className='d-flex gap-5 '>
+
+  <div classname="">
+Crafts
+  </div>
+  <div>
+    2
+  </div>
+</div>
+{/* <div className='d-flex gap-5'>
 
   <div>
     Crafts1
@@ -61,10 +99,28 @@ const Blog = () => {
   </div>
 </div>
 
+<div className='d-flex gap-15'>
+
+  <div>
+    Handmade1
+  </div>
+  <div>
+    2
+  </div>
+</div>
 <div className='d-flex gap-5'>
 
   <div>
     Design
+  </div>
+  <div>
+    2
+  </div>
+</div>
+<div className='d-flex gap-5'>
+
+  <div>
+    Handmade
   </div>
   <div>
     2
@@ -96,7 +152,7 @@ const Blog = () => {
   <div>
     2
   </div>
-</div>
+</div> */}
 </div>
 
 </div>
